@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ----- UNIVERSAL STYLING ----- */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #4338ca;
+  --secondary: #7e22ce;
+  --accent: #a21caf;
+  --text: #ffffff;
+  --backgroundPrimary: #000000;
+  --backgroundPaper: #1f2937;
+  --textStroke: #a21caf;
+  --borderWidth: 1px;
+  --borderColor: #a21caf;
+  --borderRadius: 0.5rem;
+  --shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowHover: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowActive: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowFocus: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowDisabled: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowRaised: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowRaisedHover: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowRaisedActive: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowRaisedFocus: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowRaisedDisabled: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowElevated: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowElevatedHover: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowElevatedActive: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowElevatedFocus: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowElevatedDisabled: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowFloating: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowFloatingHover: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowFloatingActive: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowFloatingFocus: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowFloatingDisabled: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowOverlay: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowOverlayHover: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowOverlayActive: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowOverlayFocus: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowOverlayDisabled: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowInset: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowInsetHover: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowInsetActive: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowInsetFocus: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowInsetDisabled: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowOutline: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowOutlineHover: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowOutlineActive: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowOutlineFocus: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowOutlineDisabled: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowNone: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowNoneHover: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowNoneActive: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowNoneFocus: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  --shadowNoneDisabled: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  background-color: var(--backgroundPrimary);
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+/* ----- UNIVERSAL STYLING ----- */
+
+/* ----- ELEMENT-LEVEL STYLING ----- */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  color: var(--primary) !important;
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+
+
+/* ----- ELEMENT-LEVEL STYLING ----- */
+
+/* ----- CUSTOM CLASS DEFINITIONS ----- */
+
+
+
+/* ----- CUSTOM CLASS DEFINITIONS ----- */
+
+/* ----- AGGREGATE REPEATEDLY-USED CLASS NAMES ----- */
+@layer components {
+  .btn-blue {
+    @apply bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded hover:ring hover:ring-indigo-500 hover:ring-offset-1;
+  }
+
+  .nav-bar {
+    @apply bg-black shadow;
+  }
+
+  .home-link {
+    @apply transition-all duration-500 text-3xl hover:underline hover:scale-125;
+  }
+
+  .nav-link {
+    @apply transition-all duration-500 text-2xl hover:underline hover:scale-125;
+  }
+
+  .footer {
+    @apply flex-col justify-around text-slate-200 bottom-0 bg-black shadow;
+  }
+
+  .page-content {
+    @apply my-24 place-content-center rounded-lg shadow-lg p-4 opacity-95 border-dashed border-2 border-indigo-500 bg-black;
+  }
+
+  .bg-gradient-to-r {
+    @apply from-teal-400 via-fuchsia-400 to-purple-700;
+  }
+
+  .layout-screen {
+    @apply flex flex-col min-h-screen h-screen justify-between bg-gradient-to-r;
+  }
+  
+}
+/* ----- AGGREGATE REPEATEDLY-USED CLASS NAMES ----- */

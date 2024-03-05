@@ -1,0 +1,15 @@
+#!/bin/bash
+
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+if [ -z "$1" ] ; then
+  echo "Missing Committ Message" && exit 1;
+fi
+
+# digiYo repo (webpages)
+cd "$script_dir/../"
+git pull
+git add .
+git commit -m "$1"
+git push
+git pull

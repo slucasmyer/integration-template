@@ -1,9 +1,9 @@
 {
-  "name": "employable-team",
+  "name": "integration-template",
   "version": "1.0.0",
   "description": "Find your forever _.",
   "repository": {
-    "url": "https://github.com/PrimeDeviation/employable-team",
+    "url": "https://github.com/slucasmyer/integration-template",
     "type": "git"
   },
   "author": "Sullivan Lucas Myer",
@@ -22,15 +22,15 @@
     "cypress:open": "cypress open --config-file tsconfig.cypress.config.ts",
     "deploy": "amplify publish",
     "clean-install": "./scripts/clean-install",
-    "commit": "./scripts/commit-script $1",
+    "commit": "./scripts/commit-script \"$@\"",
     "build-rust": "rustc --target wasm32-unknown-unknown -O --crate-type=cdylib src/rust_utils.rs -o rust_utils.wasm"
   },
   "dependencies": {
     "@apollo/client": "latest",
     "@apollo/server": "latest",
     "@as-integrations/next": "latest",
-    "@aws-sdk/client-dynamodb": "^3.525.0",
-    "@aws-sdk/lib-dynamodb": "^3.525.0",
+    "@aws-sdk/client-dynamodb": "latest",
+    "@aws-sdk/lib-dynamodb": "latest",
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
     "@emotion/cache": "latest",
@@ -64,13 +64,13 @@
     "stripe": "latest",
     "subscriptions-transport-ws": "latest",
     "tailwindcss": "latest",
-    "typescript": "^5.0.0",
+    "typescript": "latest",
     "utf-8-validate": "latest",
     "uuid": "latest"
   },
   "devDependencies": {
-    "@aws-amplify/backend": "^0.12.1",
-    "@aws-amplify/backend-cli": "^0.11.1",
+    "@aws-amplify/backend": "latest",
+    "@aws-amplify/backend-cli": "latest",
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@types/jest": "latest",
@@ -82,10 +82,10 @@
     "@types/react-redux": "latest",
     "@types/redux-logger": "latest",
     "@types/uuid": "latest",
-    "aws-cdk": "^2",
-    "aws-cdk-lib": "^2",
+    "aws-cdk": "latest",
+    "aws-cdk-lib": "latest",
     "babel-jest": "latest",
-    "constructs": "^10.0.0",
+    "constructs": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "jest": "latest",
@@ -94,5 +94,6 @@
     "redux-logger": "latest",
     "ts-jest": "latest",
     "ts-node": "latest"
-  }
+  },
+  "packageManager": "yarn@4.1.1"
 }

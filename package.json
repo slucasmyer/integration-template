@@ -24,6 +24,7 @@
     "clean-install": "./scripts/clean-install",
     "commit": "./scripts/commit-script \"$@\"",
     "deploy": "amplify pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID",
+    "show-vars": "echo Branch: $AWS_BRANCH, App ID: $AWS_APP_ID",
     "build-rust": "rustc --target wasm32-unknown-unknown -O --crate-type=cdylib src/rust_utils.rs -o rust_utils.wasm"
   },
   "dependencies": {

@@ -95,7 +95,8 @@ const RAW_RUNTIME_STATE =
           ["ts-node", "virtual:1730efd0dbc1ecadc72dfa1c32a3a2934d7cdab1ef3c1d5893dade4b0b09d9f1ef8023f8220357de0f7521d6daf5e923993fce360de566f05706389ee5517b67#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["utf-8-validate", "npm:6.0.3"],\
-          ["uuid", "npm:9.0.1"]\
+          ["uuid", "npm:9.0.1"],\
+          ["zod", "npm:3.22.4"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -16163,7 +16164,8 @@ const RAW_RUNTIME_STATE =
           ["ts-node", "virtual:1730efd0dbc1ecadc72dfa1c32a3a2934d7cdab1ef3c1d5893dade4b0b09d9f1ef8023f8220357de0f7521d6daf5e923993fce360de566f05706389ee5517b67#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["utf-8-validate", "npm:6.0.3"],\
-          ["uuid", "npm:9.0.1"]\
+          ["uuid", "npm:9.0.1"],\
+          ["zod", "npm:3.22.4"]\
         ],\
         "linkType": "SOFT"\
       }]\

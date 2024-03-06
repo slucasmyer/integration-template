@@ -66,7 +66,8 @@
     "tailwindcss": "latest",
     "typescript": "latest",
     "utf-8-validate": "latest",
-    "uuid": "latest"
+    "uuid": "latest",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@aws-amplify/backend": "latest",

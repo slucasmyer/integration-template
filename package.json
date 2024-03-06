@@ -20,9 +20,10 @@
     "test-node": "jest --config jest.config.node.ts",
     "cypress:run": "cypress run --config-file tsconfig.cypress.config.ts",
     "cypress:open": "cypress open --config-file tsconfig.cypress.config.ts",
-    "deploy": "amplify publish",
+    "publish": "amplify publish",
     "clean-install": "./scripts/clean-install",
     "commit": "./scripts/commit-script \"$@\"",
+    "deploy": "amplify pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID",
     "build-rust": "rustc --target wasm32-unknown-unknown -O --crate-type=cdylib src/rust_utils.rs -o rust_utils.wasm"
   },
   "dependencies": {
@@ -53,7 +54,7 @@
     "ioredis": "latest",
     "micro": "latest",
     "micro-cors": "latest",
-    "next": "^14.1.2",
+    "next": "latest",
     "next-auth": "latest",
     "nodemailer": "latest",
     "postcss": "latest",
@@ -67,7 +68,7 @@
     "typescript": "latest",
     "utf-8-validate": "latest",
     "uuid": "latest",
-    "zod": "^3.22.4"
+    "zod": "latest"
   },
   "devDependencies": {
     "@aws-amplify/backend": "latest",
@@ -76,7 +77,7 @@
     "@testing-library/react": "latest",
     "@types/jest": "latest",
     "@types/micro-cors": "latest",
-    "@types/next": "^9.0.0",
+    "@types/next": "latest",
     "@types/node": "latest",
     "@types/nodemailer": "latest",
     "@types/react": "latest",

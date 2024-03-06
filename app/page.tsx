@@ -5,7 +5,7 @@ import styles from './home.module.css'
 import { TextField, Stack, Container } from '@mui/material'
 import Button from '@/components/Button'
 
-
+// home
 export default function Home(props: any) {
   const [name, setName] = useState<string | null>(null)
   const [email, setEmail] = useState<string | null>(null)

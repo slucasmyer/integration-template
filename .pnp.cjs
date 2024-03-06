@@ -82,6 +82,7 @@ const RAW_RUNTIME_STATE =
           ["next-auth", "virtual:1730efd0dbc1ecadc72dfa1c32a3a2934d7cdab1ef3c1d5893dade4b0b09d9f1ef8023f8220357de0f7521d6daf5e923993fce360de566f05706389ee5517b67#npm:4.24.6"],\
           ["nodemailer", "npm:6.9.11"],\
           ["postcss", "npm:8.4.35"],\
+          ["prettier", "npm:3.2.5"],\
           ["prisma", "npm:5.10.2"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.2.0"],\
@@ -16191,6 +16192,7 @@ const RAW_RUNTIME_STATE =
           ["next-auth", "virtual:1730efd0dbc1ecadc72dfa1c32a3a2934d7cdab1ef3c1d5893dade4b0b09d9f1ef8023f8220357de0f7521d6daf5e923993fce360de566f05706389ee5517b67#npm:4.24.6"],\
           ["nodemailer", "npm:6.9.11"],\
           ["postcss", "npm:8.4.35"],\
+          ["prettier", "npm:3.2.5"],\
           ["prisma", "npm:5.10.2"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.2.0"],\
@@ -19399,7 +19401,7 @@ const RAW_RUNTIME_STATE =
           ["lilconfig", "npm:3.1.1"],\
           ["postcss", "npm:8.4.35"],\
           ["ts-node", null],\
-          ["yaml", "npm:2.4.0"]\
+          ["yaml", "npm:2.4.1"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -19513,6 +19515,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/prettier-npm-2.8.8-430828a36c-10c0.zip/node_modules/prettier/",\
         "packageDependencies": [\
           ["prettier", "npm:2.8.8"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:3.2.5", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.2.5-6859110d6a/node_modules/prettier/",\
+        "packageDependencies": [\
+          ["prettier", "npm:3.2.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -22440,10 +22449,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:2.4.0", {\
-        "packageLocation": "../../../.yarn/berry/cache/yaml-npm-2.4.0-c777792a53-10c0.zip/node_modules/yaml/",\
+      ["npm:2.4.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/yaml-npm-2.4.1-2717faf9eb-10c0.zip/node_modules/yaml/",\
         "packageDependencies": [\
-          ["yaml", "npm:2.4.0"]\
+          ["yaml", "npm:2.4.1"]\
         ],\
         "linkType": "HARD"\
       }]\

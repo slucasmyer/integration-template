@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import { useState, useEffect, useContext } from 'react'
+import { useState} from 'react'
 import styles from './home.module.css'
 import { TextField, Stack, Container } from '@mui/material'
 import Button from '@/components/Button'

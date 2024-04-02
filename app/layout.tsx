@@ -25,7 +25,7 @@ import ApolloClientProvider from '@/context/apolloProvider'
 //   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 // });
 
-// trigger a build
+// trigger another build
 
 const font = Ubuntu_Mono({
   weight: ['400', '700'],
